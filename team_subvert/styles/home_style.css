@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+.container {
+	padding: 0;
+	margin: 0;
+	width: 98%;
+	margin-left: 10px;	/*
+	border-bottom: 10px solid red;*/
+
+}
+
+.header_wrapper {
+	height: 100px;
+	width: 98%;
+	border-bottom: 10px solid #0c7473;
+	background-color: #06cdcb;
+	padding: 10px;
+	margin:5px;
+
+
+}
+
+.header_wrapper .header {
+	width: 1300px;
+	height: 100px;
+	margin: 0 auto;
+	line-height: 100px;
+
+}
+
+
+ul {
+	width: 800px;
+	float: left;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 22px;
+
+	
+}
+
+strong {
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;	
+}
+
+ul li a:hover {
+	filter: invert(20%);
+	text-decoration: unset;
+}
+
+.header_id{
+	color:black;
+}
+
+
+.form1 {
+	float: right;
+	line-height: 100px;	
+}
+
+.form1 input {
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+.sign_up{
+	background-color: 
+}
+
+
+/*.form1 button {
+	height: 30px;
+	width: 80px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: skyblue;
+	color: white;
+}
+*/
+/*.form1 button:hover {
+	background-color: #2aa2d4;
+}
+*/
+.search_box{
+	/*background-color: ;*/
+	border: 5px solid black;
+	background-color: lightgrey;
+}
+
+.home_search{
+	cursor: pointer;
+	height: 32px;
+	width: 90px;
+	font-size: 20px;
+	background-color: #1aadad;
+	color: black;
+	margin-left: 5px;
+	border: none;
+	margin-top: 6px;
+	/*cursor: pointer;*/
+}
+
+.home_search:hover{
+	filter: invert(10%);
+}
+
+.content {
+	padding: 10px;
+	
+	width:auto;
+
+}
+
+
+.user_timeline {
+	width: 250px;
+	height: 600px;
+	background-color: white;
+	border-radius: 5px;
+	float: left;
+	border: 1px solid black;
+
+	/*padding-left: 2px;*/
+}
+.user_details{
+/*	background-color: #1eb9b7;
+*/
+	background-image: url('user-bg.jpg');
+	height: 100%;
+
+
+}
+
+.user_details img {
+	margin-top: 10px;
+	height: 200px;
+	width:200px;
+	border-color: 4px solid gray;
+	border-radius: 10px;
+}
+
+
+.user_details p {
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+.user_details p:hover{
+	cursor: pointer;
+
+}
+
+.user_details a {
+
+	text-decoration: none;
+	opacity: 1.0;
+	color: black;
+
+}
+
+.user_details a:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.user_mention {
+	border-color: 2px solid black;
+}
+
+.content_timeline {
+	height: auto;
+	width: 1050px;
+	padding: 10px;
+	float: right;
+}
+
+.fm input {
+	
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 0.5px solid blue;
+
+}
+
+/*.fm input:hover {
+	background-color: aqua;
+
+}
+*/
+
+.fm textarea {
+
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+	border: 0.5px solid blue;
+
+}
+
+.fm textarea:hover {
+	background-color: white;
+}
+
+.fm select {
+	font-size: 20px;
+	margin-top: 10px;
+	border: 0.5px solid blue;
+	
+}
+
+.fm button{
+	color: black;
+	background-color: aqua; 
+}
+
+.fm button:hover{
+	filter: invert(10%);
+}
+
+.posts{
+	height: auto;
+	background-color: #f6f6f6; 
+	width: 800px; 
+	border-radius:10px; 
+	padding-top :10px;
+	margin-top: 20px;
+}
+
+
+.post_submit{
+	cursor: pointer;
+	border:none;
+	background-color: aqua;
+	border-radius: 5px; 
+
+}

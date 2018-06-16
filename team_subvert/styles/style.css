@@ -1,0 +1,182 @@
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+#header_wrapper {
+	height: 200px;
+	width: 98%;
+	/*background-color: aqua;*/
+	/*border-bottom: 5px solid #fd0904;*/
+	margin-left:  10px;
+	background-color: #f6f6f6;
+
+
+}
+
+#header_wrapper #header {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#headerLogo {
+	float: left;
+	height: 180px;
+	width: 180px;
+	border-radius: 10px;
+}
+
+#form1 {
+	float: right;
+	line-height: 200px;
+}
+
+#form1 input {
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+	border:none;
+	border-radius: 10px;
+}
+
+#form1 strong {
+	font-size: 18px;
+}
+
+#form1 button {
+	height: 30px;
+	width: 80px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: aqua;
+	color: black;
+}
+
+#form1 button:hover {
+	opacity: 0.9;
+}
+
+
+
+#content {
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+#welcomeImage {
+	float: left;
+	padding: 10px;
+	height: auto;
+
+}
+
+#welcomeImage img {
+	border-radius: 20px;
+}
+
+#welcomeImage img:hover{
+	opacity: 0.9;
+
+}
+ #form_content {
+	float: right;
+	height: 500px;
+	background-color: #;
+	width: 400px;
+	padding: 10px;
+	margin-right: 20px;
+	border-left: 1px solid black;
+}
+
+#form2{
+	background-color: #70f5ac;
+	padding-left: 10px;
+}
+
+ #form2 strong,option,select{
+	font-size: 18px;
+}
+
+#form2 input {
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	padding: 8px;
+	margin-top: 5px;
+}
+
+#form2 button {
+	height: 30px;
+	width: 160px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: aqua;
+	color: black;
+	margin-top: 10px;
+	margin-left: 110px;
+}
+
+#form2 button:hover {
+	opacity: 0.9;
+}
+
+
+
+#footer {
+	width: 98%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 20px;
+/*	background-color: #f6f6f6;*/
+	background-image: url("footer.jpg");
+	color: #989795;
+	clear: both;
+	margin-left: 10px;
+	border-top:10px solid #0c7473;
+}
+
+#footer_text{
+	color: black;
+}
+
+#reply_btn{
+	border-radius: 10px;
+	background-color: aqua;	
+	border:none; 
+	width: 200px;
+	height: 25px;
+	float: right;
+	cursor: pointer;
+	/*display: inline-block;*/
+
+}
+
+#pagination a{
+	color: black;
+	text-decoration: unset;
+}
+
+#pagination:hover{
+	opacity: 0.7;
+}
+
+
